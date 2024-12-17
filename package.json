@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start app.js --name mern-ci-cd --node-args='-r dotenv/config'"
+    "start": "pm2 start app.js --name express-ci-cd --node-args='-r dotenv/config'",
+    "restart": "pm2 restart express-ci-cd"
   },
   "type": "module",
   "keywords": [],
